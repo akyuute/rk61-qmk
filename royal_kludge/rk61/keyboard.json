@@ -2,7 +2,7 @@
     "keyboard_name": "RK61",
     "manufacturer": "Royal Kludge",
     "url": "",
-    "maintainer": "ssyo",
+    "maintainer": "akyuute",
     "usb": {
         "vid": "0x1480",
         "pid": "0x6461",
