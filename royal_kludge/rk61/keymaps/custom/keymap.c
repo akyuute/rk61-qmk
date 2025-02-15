@@ -14,7 +14,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      KC_TAB,     KC_Q,     KC_W,     KC_E,     KC_R,     KC_T,     KC_Y,     KC_U,     KC_I,     KC_O,     KC_P,  KC_LBRC,  KC_RBRC,  KC_BSLS,
      KC_ESC,     KC_A,     KC_S,     KC_D,     KC_F,     KC_G,     KC_H,     KC_J,     KC_K,     KC_L,  KC_SCLN,  KC_QUOT,   KC_ENT,
     KC_LSFT,     KC_Z,     KC_X,     KC_C,     KC_V,     KC_B,     KC_N,     KC_M,  KC_COMM,   KC_DOT, KC_SLASH,  KC_RSFT,KC_NO,KC_NO,
-    KC_LCTL,      MO(_VIM),     KC_GUI,      KC_SPC,                                               KC_BSPC,     KC_ALT,    MO(_VIM),    MO(_MEDIA)
+    KC_LCTL,      MO(_VIM),     KC_GUI,      KC_SPC,                                               KC_BSPC,     KC_ALT,     MO(_VIM),    MO(_MEDIA)
 ),
 
 [_VIM] = LAYOUT_all(
@@ -22,15 +22,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______,  _______,    KC_UP,  _______,  _______,  _______,  KC_PSCR,  _______,  _______,  _______,  _______,  _______,  _______,  _______,
     _______,  KC_LEFT,  KC_DOWN,  KC_RGHT,  _______,  _______,  KC_LEFT,  KC_DOWN,    KC_UP,  KC_RGHT,  KC_LPRN,  KC_RPRN,  _______,
     _______,  _______,  _______,  _______,  _______,  _______,  KC_HOME,  KC_PGDN,  KC_PGUP,   KC_END,  _______,  _______,_______,_______,
-    _______,      _______,      _______,      _______, 	                                           KC_DEL,       _______,      _______,     MO(_SPEC)
+    _______,      _______,      _______,      _______, 	                                            KC_DEL,     _______,     _______,     MO(_SPEC)
 ),
 
 [_MEDIA] = LAYOUT_all(
-    _______,  _______,  _______,  _______,  _______,  _______,  KC_MSTP,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_MUTE,  KC_VOLD,  KC_VOLU,  _______,_______,
+    MS_ACL0,  MS_ACL1,  MS_ACL2,  _______,  _______,  _______,  KC_MSTP,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_MUTE,  KC_VOLD,  KC_VOLU,  _______,_______,
     _______,  _______,    MS_UP,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  KC_BRID,  KC_BRIU,  _______,
-    _______,  MS_LEFT,  MS_DOWN,  MS_RGHT,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,
-    _______,  MS_WHLU,  MS_WHLD,  _______,  _______,  _______,  _______,  _______,  _______,  MS_BTN1,  MS_BTN3,  MS_BTN2,_______,_______,
-    _______,      MO(_SPEC),    _______,      KC_MPLY,                                             _______,      _______,      MO(_SPEC),   _______
+    _______,  MS_LEFT,  MS_DOWN,  MS_RGHT,  _______,  _______,  _______,  _______,  _______,  _______,  MS_BTN1,  MS_BTN3,  MS_BTN2
+    _______,  _______,  _______,  MS_DOWN,  MS_WHLD,  _______,  _______,  _______,  _______,  _______,  MS_WHLD,  MS_WHLU,_______,_______,
+    _______,      MO(_SPEC),    _______,      KC_MPLY,                                             MS_WHLL,     MS_WHLR,      MO(_SPEC),   _______
 ),
 
 [_SPEC] = LAYOUT_all(
