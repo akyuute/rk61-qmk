@@ -7,6 +7,8 @@ My custom layout is specific to my needs and features grave/tilde as the
 Windows key, Windows key as a modifier for a number of Vim movement keys,
 and Fn as a second modifier for multimedia and mouse keys.
 
+![The custom VimWin layout found in keymaps/vimwin](/img/vimwin_layout_rev2.png)
+
 Please follow [these instructions](https://docs.qmk.fm/newbs) to set up
 your QMK environment.
 
