@@ -15,10 +15,10 @@ your QMK environment.
 When you're ready to compile, copy the `royal_kludge` folder into
 `qmk_firmware/keyboards/`.
 
-Go to the qmk_firmware directory and run `qmk compile -kb
-royal_kludge/rk61 -km custom`.
+Go to the qmk_firmware directory and run `$ qmk compile -kb
+royal_kludge/rk61 -km vimwin`.
 
-Then run `qmk flash royal_kludge_rk61_custom.bin` and press the DFU
+Then run `$ qmk flash royal_kludge_rk61_custom.bin` and press the DFU
 button underneath the spacebar for a few seconds.
 
 Replug the keyboard and you'll be ready to go! (Maybe...)
