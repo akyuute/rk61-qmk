@@ -20,7 +20,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_VIM] = LAYOUT_all(
      KC_GRV,    KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,    KC_F6,    KC_F7,    KC_F8,    KC_F9,   KC_F10,   KC_F11,   KC_F12,  KC_DEL,_______,
     _______,  _______,    KC_UP,  _______,  _______,  _______,  KC_PSCR,  KC_HOME,  KC_PGDN,  KC_PGUP,   KC_END,  _______,  _______,  _______,
-    _______,  KC_LEFT,  KC_DOWN,  KC_RGHT,  _______,  _______,  KC_LEFT,  KC_DOWN,    KC_UP,  KC_RGHT, KC_MINUS, KC_EQUAL,  _______,
+    KC_LALT,  KC_LEFT,  KC_DOWN,  KC_RGHT,  _______,  _______,  KC_LEFT,  KC_DOWN,    KC_UP,  KC_RGHT, KC_MINUS, KC_EQUAL,  _______,
     _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  KC_LPRN,  KC_RPRN,  KC_BSLS,  _______,_______,_______,
     _______,      _______,      _______,      _______, 	                                            KC_DEL,     _______,     _______,     MO(_SPEC)
 ),
@@ -29,7 +29,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     MS_ACL0,  MS_ACL1,  MS_ACL2,  _______,  _______,  _______,  KC_MSTP,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_MUTE,  KC_VOLD,  KC_VOLU,  _______,_______,
     _______,  _______,    MS_UP,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  KC_BRID,  KC_BRIU,  _______,
     KC_CAPS,  MS_LEFT,  MS_DOWN,  MS_RGHT,  _______,  _______,  _______,  _______,  _______,  MS_ACL0,  MS_WHLD,  MS_WHLU,  MS_ACL2,
-    _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  MS_BTN1,  MS_BTN3,  MS_BTN2,_______,_______,
+    _______,  MS_WHLL,  MS_WHLD,  MS_WHLU,  MS_WHLR,  _______,  _______,  _______,  _______,  MS_BTN1,  MS_BTN3,  MS_BTN2,_______,_______,
     _______,      MO(_SPEC),    _______,      KC_MPLY,                                             MS_WHLL,     MS_WHLR,      MO(_SPEC),   _______
 ),
 
