@@ -28,9 +28,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_MEDIA] = LAYOUT_all(
     MS_ACL0,  MS_ACL1,  MS_ACL2,  _______,  _______,  _______,  KC_MSTP,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_MUTE,  KC_VOLD,  KC_VOLU,  _______,_______,
     _______,  _______,    MS_UP,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  KC_BRID,  KC_BRIU,  _______,
-    KC_CAPS,  MS_LEFT,  MS_DOWN,  MS_RGHT,  _______,  _______,  _______,  _______,  _______,  MS_ACL0,  MS_WHLD,  MS_WHLU,  MS_ACL2,
+    KC_CAPS,  MS_LEFT,  MS_DOWN,  MS_RGHT,  _______,  _______,  _______,  _______,  _______,  _______,  MS_ACL1,  MS_ACL0,  MS_ACL2,
     _______,  MS_WHLL,  MS_WHLD,  MS_WHLU,  MS_WHLR,  _______,  _______,  _______,  _______,  MS_BTN1,  MS_BTN3,  MS_BTN2,_______,_______,
-    _______,      MO(_SPEC),    _______,      KC_MPLY,                                             MS_WHLL,     MS_WHLR,      MO(_SPEC),   _______
+    _______,      MO(_SPEC),    _______,      KC_MPLY,                                             _______,     _______,      MO(_SPEC),   _______
 ),
 
 [_SPEC] = LAYOUT_all(
