@@ -98,18 +98,14 @@
       "f": 3
     },
     "T\n\n&",
-    "Y\n\n\n\n\n\n\nHome",
-    "U\n\n\n\n\n\n\nPgDn",
-    "I\n\n\n\n\n\n\nPgUp",
-    "O\n\n\n\n\n\n\nEnd",
     {
-      "fa": [
-        0,
-        0,
-        7
-      ]
+      "f": 3
     },
-    "P\n\n`~",
+    "Y\n\n_",
+    "U\n\n\n\n\n\n\nHome",
+    "I\n\n\n\n\n\n\nPgUp",
+    "O\n\n\n\n\n\n\nPgDn",
+    "P\n\n\n\n\n\n\nEnd",
     {
       "f": 3
     },
@@ -130,14 +126,16 @@
     },
     "Escape\n\nBksp\nCapsLock",
     {
-      "fa": [
-        0,
-        0,
-        5
-      ]
+      "f": 3
     },
     "A\n\n←\nM←",
+    {
+      "f": 3
+    },
     "S\n\n↓\nM↓",
+    {
+      "f": 3
+    },
     "D\n\n→\nM→",
     {
       "fa": [
@@ -146,22 +144,8 @@
         7
       ]
     },
-    "F\n\n*",
-    {
-      "fa": [
-        0,
-        0,
-        5
-      ]
-    },
-    "G\n\n_",
-    {
-      "fa": [
-        0,
-        0,
-        7
-      ]
-    },
+    "F\n\n`~",
+    "G\n\n*",
     "H\n\n←",
     "J\n\n↓",
     "K\n\n↑",
@@ -198,20 +182,12 @@
       "fa": [
         0,
         5,
-        2,
-        2
-      ]
-    },
-    "Z\n\n\nMW←\n\n\n\nLAlt",
-    "X\n\n\nMW↑\n\n\n\nTab",
-    {
-      "fa": [
-        0,
-        5,
         0,
         2
       ]
     },
+    "Z\n\nLAlt\nMW←",
+    "X\n\nTab\nMW↑",
     "C\n\nF2\nMW↓",
     "V\n\nF5\nMW→",
     {
